@@ -31,7 +31,7 @@
 #include "ARZFile.h"
 #include "ARZString.h"
 
-#include "lz4\lz4.h"
+#include "lz4.h"
 
 /**
  * @brief Global strings table for name lookups.
