@@ -40,6 +40,7 @@ add_executable(grimarz
   grimarz/main.cpp
 )
 target_link_libraries(grimarz PRIVATE shlwapi LZ4::LZ4)
+target_compile_features(grimarz PRIVATE cxx_std_11)
 
 install(TARGETS grimarz RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 install(FILES LICENSE DESTINATION ${CMAKE_INSTALL_DOCDIR})
